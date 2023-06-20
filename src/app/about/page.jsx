@@ -2,7 +2,7 @@
 import "../../styles/about.css";
 import React, { useEffect, useRef, useState } from 'react';
 
-const about = () => {
+const About = () => {
     const divRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
     useEffect(() => {
@@ -23,7 +23,7 @@ const about = () => {
           };
         }, []);
   return (
-    <>
+    <div ref={divRef}>
     <title>ZET - About Us</title>
     <div>
         <img src= 'https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FOurMission.13d85461.png&w=3840&q=100' alt="background-image" className="back-img"/>
@@ -277,8 +277,8 @@ const about = () => {
         </div>
     </div>
     <img className='company' src='https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAboutUsFooter.d2311d39.png&w=3840&q=100' />
-    </>
+    </div>
   )
 }
 
-export default about
+export default About;
