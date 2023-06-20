@@ -1,0 +1,509 @@
+.about-section{
+  overflow-x: hidden;
+  margin-top: -18px;
+}
+
+.back-img{
+  height: 650px;
+  width: 100%;
+  color: transparent;
+  object-fit: cover;
+  margin-top: 0px;
+}
+
+.mission{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  text-align: center;
+}
+
+.their-mission{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-mission{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-desc{
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 24px;
+  width: 40%;
+}
+
+.quote-mission{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.quote{
+  font-family: Graphie;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 43px;
+  letter-spacing: 0.2em;
+  color: rgb(255, 255, 255);
+}
+
+.evolved-process{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 48px;
+  padding-bottom: 24px;
+}
+
+.evolved-header{
+  font-size: 40px;
+  color: rgb(47, 52, 64);
+  font-weight: 700;
+}
+
+.evolved-image{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.evolved-image > img{
+  height: auto;
+  width: 80%;
+  margin-top: 76px;
+  color: transparent;
+}
+
+.features{
+  padding-bottom:2rem;
+  background-color: rgb(250,251,254);
+  width: auto;
+}
+.features-heading{
+  display: flex;
+  flex-direction: column;
+  padding: 23px 0;
+  align-items: start;
+}
+.features-header{
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 800;
+  color: rgba(47,52,64);
+  padding-left: 10%;
+}
+.features-logo{
+  margin: 0 10%;
+
+}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgg {
+  width: 20%;
+  height: auto;
+  margin-right:1%;
+}
+
+.investors{
+  width: auto;
+  padding: 0.5rem 0rem;
+  align-items: center;
+  padding-bottom: 6rem;
+  background-color: rgb(250, 251, 254);
+}
+
+.investors-heading{
+  display: flex;
+  flex-direction: column;
+  margin: 48px 0px;
+}
+
+.investors-header{
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 800;
+  color: rgb(47, 52, 64);
+  padding-left:10%;
+}
+
+.investors-company{
+  display: grid;
+  gap: 2vw;
+  margin-top: 4vw;
+  position: inherit;
+  z-index: 10;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 0 11%;
+}
+
+.company-div{
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.company-div-1,
+.company-div-2,
+.company-div-3,
+.company-div-4{
+  padding: 2rem;
+  z-index: 20;
+  position: relative;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company-logo{
+  display: contents;
+}
+
+.company-logo > img{
+  width: 100%;
+  height: auto;
+}
+
+.company-founders{
+  display: grid;
+  gap: 2vw;
+  margin-top: 4vw;
+  position: inherit;
+  z-index: 10;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 0 12%;
+}
+
+.cardsss{
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.company-founder-card{
+  padding: 2rem;
+  z-index: 20;
+  position: relative;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.founders{
+  display: contents;
+}
+
+.founders > img{
+  width: 100%;
+  height: auto;
+  color: transparent;
+}
+
+.founder-name{
+  margin-top: 16px;
+}
+
+.founder-name text{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(47, 52, 64);
+  line-height: 24px;
+}
+
+.founder-position{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(134, 145, 168);
+  line-height: 24px;
+  margin-top: 2px;
+}
+
+.main-founders{
+  width: auto;
+  padding: 0.5rem 12rem;
+  align-items: center;
+  background: linear-gradient(168deg, rgb(233, 244, 255) 0%, rgb(255, 255, 255) 100%);
+  position: relative;
+}
+
+.main-founders-heading{
+  display: flex;
+  flex-direction: column;
+  margin: 48px 0px;
+  align-items: center;
+}
+
+.main-heading{
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 800;
+  color: rgb(47, 52, 64);
+}
+
+.main-disc{
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  color: rgb(89, 99, 121);
+  margin-top: 10px;
+  font-family: Graphie;
+  font-style: normal;
+}
+
+.fade{
+  display: flex;
+  flex-direction: row;
+}
+
+.founder-1-div,
+.founder-2-div,
+.founder-3-div{
+  padding: 2rem;
+  z-index: 20;
+  position: relative;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.founder-1,
+.founder-2,
+.founder-3{
+  display: contents;
+}
+
+.founder-1 > img{
+  width: 100%;
+  height: auto;
+  color: transparent;
+}
+
+.founder-2 > img{
+  width: 100%;
+  height: auto;
+  color: transparent;
+}
+
+
+.founder-3 > img{
+  width: 100%;
+  height: auto;
+  color: transparent;
+}
+
+.founder-name{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.founder-name-header{
+  margin-top: 16px;
+}
+
+.founder-name-header text{
+  font-size: 24px;
+  color: rgb(47, 52, 64);
+  line-height: 32px;
+}
+
+.main-founder-desc{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(47, 52, 64);
+  line-height: 32px;
+  margin-top: 2px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.linked-in-profile{
+  margin-top: 25px;
+}
+
+.linked-in-profile > img{
+  height: 40px;
+  width: 40px;
+  color: transparent;
+}
+
+.company{
+  height: auto;
+  width: 100%;
+  color: transparent;
+}
+@media (max-width: 400px) {
+  .investors{
+      padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-founders {
+      padding: 0.5rem 1rem;
+      background: linear-gradient(168deg, rgb(233, 244, 255) 0%, rgb(255, 255, 255) 100%);
+      position: relative;
+    }
+
+    .main-founders-heading {
+      margin: 24px 0;
+    }
+
+    .main-heading {
+      font-size: 28px;
+      line-height: 28px;
+    }
+
+    .main-disc {
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 8px;
+    }
+
+    .fade {
+      flex-direction: column;
+    }
+
+    .founder-1-div,
+    .founder-2-div,
+    .founder-3-div {
+      padding: 1rem;
+      display: block;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .founder-1 img,
+    .founder-2 img,
+    .founder-3 img {
+      height: 50%;
+      width: 50%;
+
+    }
+
+    .founder-name {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .founder-name-header text {
+      font-size: 20px;
+      line-height: 1px;
+    }
+
+    .main-founder-desc {
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 4px;
+    }
+
+    .linked-in-profile {
+      margin-top: 15px;
+    }
+
+    .linked-in-profile img {
+      height: 30px;
+      width: 30px;
+    }
+    .evolved-image > img{
+      width: 250%;
+      margin-top: 20px;
+    }
+    .evolved-header{
+      font-size: 25px;
+  }
+  .features-header{
+        font-size: 25px;
+      }
+      .investors-header{
+      font-size: 25px;
+    }
+    .investors-heading{
+      margin-top: 48px;
+      margin-bottom: -25px;
+    }
+    .about-section{
+      height: 100vh;
+      overflow: hidden;
+    }
+    .about-section > img{
+      height: 100%;
+    }
+    .mission{
+      margin-top: -100px;
+    }
+    .their-mission{
+      font-size: 25px;
+    }
+    .text-mission{
+      margin-top: 5px ;
+    }
+    .text-desc{
+      font-size: 15px;
+    }
+    .quote-mission{
+      margin-top: 130px;
+    }
+    .company-div-1, .company-div-2, .company-div-3, .company-div-4{
+      padding: 10px;
+    }
+    .temp{
+      text-align: center;
+      justify-content: center;
+    }
+    .text-mission{
+      width: 75%;
+    }
+    .image-row{
+      flex-direction: column;
+      align-items: center;
+  }
+  .imgg{
+      width: 50%;
+      margin-bottom: 5%;
+    }
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-in-from-bottom {
+  animation: slideInFromBottom 1s ease-in;
+}
+.my-div {
+  opacity: 0;
+}
+
+.my-div.visible {
+  opacity: 1;
+  animation: slideInFromBottom 0.5s ease-in ;
+}
