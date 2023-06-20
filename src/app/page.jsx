@@ -3,7 +3,7 @@ import React from 'react';
 import "../styles/app.css";
 import { useEffect, useRef, useState } from 'react';
 
-const page = () => {
+const Page = () => {
   const divRef = useRef(null);
   const [animate, setAnimate] = useState(false);
   useEffect(() => {
@@ -24,7 +24,7 @@ const page = () => {
     };
   }, []);
   return (
-    <>
+    <div ref={divRef}>
      <div className='main slide-in-from-bottom'>
         <div className='left'>
             <div className='text-div'>
@@ -288,8 +288,8 @@ const page = () => {
         <img className='imgi' src='	https://zetapp.in/_next/static/media/earningDec.b2e9943b.svg' />
       </div>
 
-    </>
+    </div>
   )
 }
 
-export default page
+export default Page;
