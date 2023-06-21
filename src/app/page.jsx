@@ -194,7 +194,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className={`benefits-card ${animate ? 'animate' : ''}`}>
+      <div>
         <div className='add1'>
           <div className='advantages'>
             <div className='advantage' >
